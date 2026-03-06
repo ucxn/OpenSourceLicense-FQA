@@ -143,6 +143,9 @@ Linux内核采用GPL-2.0授权，基于（全部或部分）Linux内核代码的
 ### mySQL的使用？   
 mySQL采用双重授权(dual license)(<https://dev.mysql.com/doc/refman/8.0/en/what-is-mysql.html>)。MySQL社区版使用GPL-2.0 授权，意味着任何人都可以使用和修改软件，而无需支付任何费用，您还可以研究源代码并更改它以满足您的需要。如果您对GPL不满意，或者需要将MySQL代码嵌入到一个商业应用程序中，您可以购买一个商业许可证版本(<http://www.mysql.com/company/legal/licensing/oem/>)。     
 
+用另外的话说，Oracle使得GPL许可和商业许可下都可以使用其MySQL数据库服务器和MySQL客户端库。因此，在GPL下使用或分发开源应用程序的开发人员可以使用GPL许可的MySQL软件，而OEM，ISV和VAR不想根据GPL许可将MySQL软件与自己的商业软件结合或分发，可以购买商业许可证。
+**什么是mySQL的商业许可呢？** Oracle为其嵌入或捆绑在另一个应用程序中的所有MySQL软件提供商业许可。商业许可使得OEM，ISV和VAR可以使用自己的商业软件分发MySQL软件的商业二进制文件，而无需将该软件置于GPL及其分发源代码的要求之列。
+
 ### mongDB的使用？     
 MongoDB 社区版在2018年10月16日之后发布的所有版本采用SSPL授权；MongoDB社区版在2018年10月16日之前发布的版本仍采用AGPL-3.0授权(<https://www.mongodb.com/community/licensing>)。    
 &emsp;&emsp;SSPL-1.0与AGPL-3.0都规定，如果使用MongoDB软件或使用基于MongoDB源码制作的软件，通过交互的方式为第三方提供服务，则必须根据其授权条款，通过网络下载向每个人免费提供该服务源代码（即MongoDB软件或基于MongoDB源码制作的软件）。      
